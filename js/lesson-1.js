@@ -200,22 +200,81 @@
 // }
 // console.log(fizzBuzz(15))
 
-function fizzBuzz(num) {
-    const result = [];
+// function fizzBuzz(num) {
+//     const result = [];
 
-    for (let i = 1; i <= num; i++) {
-        if (i % 3 === 0 && i % 5 === 0) {
-            result.push("fizzbuzz");
-        } else if (i % 3 === 0) {
-            result.push("fizz");
-        } else if (i % 5 === 0) {
-            result.push("buzz");
-        } else {
-            result.push(i);
-        }
-    }
+//     for (let i = 1; i <= num; i++) {
+//         if (i % 3 === 0 && i % 5 === 0) {
+//             result.push("fizzbuzz");
+//         } else if (i % 3 === 0) {
+//             result.push("fizz");
+//         } else if (i % 5 === 0) {
+//             result.push("buzz");
+//         } else {
+//             result.push(i);
+//         }
+//     }
 
-    return result;
-}
+//     return result;
+// }
 
-console.log(fizzBuzz(15));
+// console.log(fizzBuzz(15));
+
+// function getLastElementMeta(array) {
+//     // let firstElement = array[0];
+//     //  let lastElement= array[array.length-1];
+//      return [array[0],array[array.length-1]];
+//     // return [firstElement, lastElement];
+
+   
+// }
+
+// console.log(getLastElementMeta(["apple", "peach", "pear", "banana"]))
+
+// function getLastElementMeta(array) {
+//     let lastIndex = array.length - 1;
+//     let lastElement = array[lastIndex];
+
+//     return [lastIndex, lastElement];
+// }
+
+// // Приклади
+// console.log(getLastElementMeta(["apple", "banana", "cherry"])); // [2, "cherry"]
+
+
+// const array = ["123"];
+// const a = array.toString();
+// console.log(a);
+// console.log(array + "5");
+// console.log(`${array} 5sa`)
+
+// console.log(Number(array));
+
+// function getLength(array) {
+//   const a= array.join("");
+//     return a.length;
+
+// }
+// console.log(getLength(["Mango", "hurries", "to", "the", "train"]));
+
+// const a = [1, true, 3, 4, 6,  ,2, , ];
+// console.table(a);
+// console.log(a.length);
+// a[10] = "10";
+// console.log(a.length-1);
+// console.log(a[-1]);
+
+// function createArrayOfNumbers(min, max) {
+
+//   const tags=[];
+
+//   for (let i=min;i<=max;i++){
+//     tags.push(`${i}`);
+//   }
+
+//   return tags;
+// }
+
+// console.log(createArrayOfNumbers("asdsa","da"));
+
+
